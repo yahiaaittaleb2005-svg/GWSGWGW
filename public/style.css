@@ -1,0 +1,48 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background:#f5f7fa;
+}
+
+.hero {
+  height:80vh;
+  position:relative;
+}
+
+.overlay {
+  position:absolute;
+  inset:0;
+  background:linear-gradient(120deg,rgba(0,0,0,.6),rgba(0,128,64,.7));
+  color:white;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+}
+
+.product {
+  background:white;
+  padding:20px;
+  border-radius:12px;
+  box-shadow:0 10px 30px rgba(0,0,0,.1);
+  transition:.3s;
+}
+
+.product:hover {
+  transform:translateY(-10px);
+}
+
+.product img {
+  width:100%;
+  border-radius:12px;
+}
+
+.btn-primary {
+  background:#2ecc71;
+  border:none;
+}
+
+footer {
+  background:#111;
+  color:white;
+}
